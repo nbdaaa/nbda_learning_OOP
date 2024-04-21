@@ -1,5 +1,5 @@
 
-package OOP.StudentClass;
+package OOP.StudentClass1;
 
 public class Student {
     private String name;

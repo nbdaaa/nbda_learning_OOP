@@ -1,5 +1,5 @@
 
-package OOP.StudentClass;
+package OOP.StudentClass1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ Mỗi dòng nhập vào: Tên, Ngày tháng năm sinh, điểm 3 môn
 --> Output: Tên, Ngày tháng năm sinh, cpa (đã chia trung bình ra)
 */
 
-public class Ex1_StudentClass {
+public class StudentClass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
