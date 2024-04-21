@@ -15,7 +15,7 @@ public class Student {
     Student(){
         count++;
         if (count < 10){
-            this.id = "00" + count;
+            this.id = "SV"+ "00" + count;
         }
         else{
             this.id = "" + count;
@@ -80,7 +80,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" + "id = " + id + ", name = " + name + ", date = " + date + ", className = " + className + ", gpa = " + gpa + '}';
+        return "Student{" + "id = " + id + ", name = " + name + ", date = " + date + ", className = " + className + ", gpa = " + String.format("%.1f", gpa) + '}';
     }
     
     public void standardName(){
